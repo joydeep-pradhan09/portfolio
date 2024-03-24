@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header, footer {
+    background-color: #212121; /* Dark gray */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project {
+    background-color: #f2f2f2; /* Light gray */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #f2f2f2;
+}
+
+/* New styles for the skills section */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill {
+    text-align: center;
+    margin: 0 20px;
+    width: 150px;
+}
+
+.skill img {
+    width: 100px; /* Adjust the size of the images as needed */
+    height: auto;
+}
+
+.skill p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
